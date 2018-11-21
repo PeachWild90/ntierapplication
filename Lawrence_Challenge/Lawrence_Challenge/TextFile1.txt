@@ -1,0 +1,13 @@
+﻿Krunker Eo Incoporated needs a console application for business 
+operations. Krunker Eo Inc is a educational video streaming site 
+for programming languages. 
+Krunker is outdated and they have to manually register users. 
+Krunker needs to be able to obtain user information; first name, 
+last name, Birthday (must be a datetime), address. 
+Krunker needs to know how many videos the user is buying.
+They want to store the user information in a list and be able to remove users as needed. 
+They want to display the user information sorted by last name. 
+Based on how many videos the user is purchasing the owed total needs to be stored 
+in the list, videos are $10.00 each. 
+In order to ensure Krunker that our application is working we need to Unit test
+our methods in our repository. 

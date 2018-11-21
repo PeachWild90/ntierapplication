@@ -1,0 +1,6 @@
+﻿Komodo Videos is wanting a console application where their users
+can add movies/tv shows, they would like to stream,
+to a list. Komodo wants to have the users register 
+prior creating a movie/tv show. Komodo wants to know if it is a movie
+or tv show, they want to know what the user rates that movie/tv show
+and what the movie/tv show genre is. 

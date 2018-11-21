@@ -1,0 +1,19 @@
+﻿Repositories
+1 - build it out - skeleton style - main, streamingcontent, repository, and programUI
+2 - program.Run() in main
+3 - built constructors in StreamingContent Method
+4 - Went into Stream Content Repository
+	-we want to make it PRIVATE!! not Public
+	-We call the methods...not the lists
+	-the only access you have is what youve built out
+	-i wanna add/remove this from list
+5 - went into ProgramUI and did a bunch of stuff
+	-Run program() ==> RunMenu()
+	-CreatShow()
+	-PASS IT DOWN TO REPOSITORY AT THE END
+	-Now we must get our list from repository back to UI
+		-we gotta get the list out from repository!!
+		-make a method that returns our list (from its return type)
+		-GetContentList in Repository!
+6- be sure to pass in parameter content to Repository
+7-
