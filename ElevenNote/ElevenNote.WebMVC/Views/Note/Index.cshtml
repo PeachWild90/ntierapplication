@@ -9,10 +9,21 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+@if (TempData.ContainsKey("SaveResult"))
+{
+    <div class="alert alert-success fade in" role="alert">
+        @ViewBag.SaveResult
+        <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+        @TempData["SaveResult"]
+    </div class="alert">
+
+}
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.NoteID)
+            @Html.DisplayNameFor(model => model.NoteId)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Title)
@@ -26,7 +37,7 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.NoteID)
+            @Html.DisplayFor(modelItem => item.NoteId)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Title)
